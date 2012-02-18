@@ -24,7 +24,7 @@ class TwitterClient {
         if (in_array($format, $this->response_formats)) {
             $this->response_format = $format;
         } else {
-            throw new InvalidArgumentException('Unsupported response format');
+            throw new InvalidArgumentException('Unsupported response format: ' . $format);
         }
     }
 
