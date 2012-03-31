@@ -1,6 +1,7 @@
 This PHP Twitter Rest API requires the PHP oauth library http://us.php.net/oauth
 
 HTTP Response codes - https://dev.twitter.com/docs/error-codes-responses
+
     200  OK                     Success!
     304  Not Modified           There was no new data to return.
     400  Bad Request            The request was invalid. An accompanying error message will explain why.
